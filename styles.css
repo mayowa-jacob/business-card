@@ -1,0 +1,31 @@
+body {
+  margin: 20px;
+  /* border: 1px solid blue; */
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.avatar {
+  width: 150px;
+}
+
+.card {
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  max-width: 400px;
+  /* Aligning element to the centre using margins set the following parameters values: width, margin-left, margin-right */
+  /* margin-left: auto;
+  margin-right: auto; */
+  /* Margins/Paddings shorthand ways */
+  /* margin: Ppx(top) Qpx(right) Rpx(bottom) Spx(left) */
+  /* margin: Ppx(top & bottom) Qpx(right & left) */
+  margin: 0 auto;
+  text-align: center;
+  color: #2b2839;
+  background-color: #ddebf8;
+  border-bottom: 6px solid #d8cefe;
+}
+
+/* .blue-border {
+  border: 2px dotted blue;
+} */
